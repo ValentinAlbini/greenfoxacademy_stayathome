@@ -1,0 +1,83 @@
+/* CTR+F works */
+.container {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+#email {
+  display: block;
+  width: 100%;
+  height: 30px;
+  padding: 3px;
+  box-sizing: border-box;  /*   default: content-box */
+  border: solid #CFCFCF thin;
+  border-radius: 3px;
+}
+button {
+  display: block;
+  width: 100%;
+  background: #3cb878;
+  border: none;
+  color: white;          /* have a default: black  */
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.newsletter-box {
+  color: grey;
+  border: solid #CFCFCF thin;
+  border-radius: 3px;
+  padding: 10px;
+  position: relative;
+}
+.newsletter-box h3 {
+  margin-top: 0px;
+}
+#terms {
+  position: relative; /*absolute*/
+  top: 2px;           /**/
+}
+.closex {
+  position: absolute;
+  top: 0;
+  right: 6px;
+  cursor: pointer;
+}
+#questioncircle {
+  font-size: 70px;
+  color: white;
+  background :#3cb878;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  box-shadow: 0px 0px 5px 3px grey;
+  cursor: pointer;
+}
+.card {
+  background: #3cb878;
+  width: 180px;
+  text-align: center;  /*align everything*/
+  padding-top: 20px;
+  padding-bottom: 6px;
+  margin-bottom: 50px;
+  color: white;
+  box-shadow: 0px 0px 5px 3px grey;
+/*   flex-grow: 1; grows the free space */
+}
+input{
+  cursor: pointer;
+}
+.card-holder {
+ display: flex;
+ justify-content: space-between; /*flex-start flex-end space-around*/
+ align-items: flex-start; /*not stratch    flex-end  center*/
+/*  flex-direction: column; change axes directions     column-revers  row  row-reverse*/
+/* flex-wrap: wrap; more rows if not enough space  */
+/*  height: 700px; align-content: flex-start; no bog space between the rows */
+}
